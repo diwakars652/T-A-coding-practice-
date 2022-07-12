@@ -1,0 +1,387 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+        	Pattern No:- [01]
+		
+		int i,j;
+		for (i=1;i<=5;i++) {
+			for(j=1;j<=i;j++) {
+				System.out.print("*");	
+			}
+			System.out.println();
+		}
+		
+		Output:-        *
+					        	* *
+				          	* * *  
+				        		* * * * 
+				        		* * * * *
+		
+            Pattern No:- [02]
+		
+		int i,j,k;
+		for(i=1;i<=5;i++) {
+			for(k=1;k<=5;k++) {
+				System.out.print(" ");
+			}
+			for(j=1;j<=5;j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		Output:-    - - - - - * * * * * 
+				      	- - - - - * * * * *
+				      	- - - - - * * * * * 
+				      	- - - - - * * * * * 
+				      	- - - - - * * * * * 
+		
+	      	Pattern No:- [03]
+		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=i;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-            *
+//					      * *
+//					    * * *
+//					  * * * *
+//					* * * * *
+		
+//		Pattern No:- [04]
+//		
+//		int i,j;
+//		for(i=1;i<=5;i++) {
+//			for(j=1;j<=5;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output-      * * * * *
+//					 * * * * *
+//					 * * * * *
+//					 * * * * *
+//					 * * * * *
+		
+//		Pattern No- [05]
+//				
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=i;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=5-i+1;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-            *****
+//							 ****
+//							  ***
+//							   **
+//							    *
+		
+	//	Pattern no-  [06]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=i;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=5;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-      *****
+//					   *****
+//						*****
+//						 *****
+//						  *****
+		
+	//	Pattern No- [07]
+		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=5;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-			*****
+//						   *****
+//					   	  *****
+//						 *****
+//						*****
+		
+//		Pattern No- [08]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=2*i-1;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-         *
+//						***
+//					   *****
+//					  *******
+//					 *********
+		
+//		Pattern No:- [09]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=i;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=11-2*i;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-             *********
+//						      *******
+//							   *****
+//								***
+//								 *
+		
+//		Pattern No:- [10]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=5;k++) {
+//			}
+//			for(j=1;j<=5;j++) {
+//				if(i==1 || i==5 || j==1 || j==5) {
+//					System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-    -*****
+//					-*   *
+//					-*   *
+//					-*   *
+//					-*****
+		
+//		Pattern No- [11]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=2*i-1;j++) {
+//				if(i==1 || i==5 || j==1 || j==2*i-1) {
+//					System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-      		    *
+//							   * *
+//							  *   *
+//							 *     *
+//							*********
+		
+//		Pattern No-  [12]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=i;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=11-2*i;j++) {
+//				if(i==1 || i==5 || j==1 || j==11-2*i) {
+//					System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:-      *********
+//					   *     *
+//						*   *
+//						 * *
+//						  *
+		
+//		Pattern No- [13]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=2*i-1;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for(i=1;i<=5;i++) {
+//			System.out.print(" ");
+//			for(j=1;j<=9;j++) {
+//				System.out.print("*");
+//			}
+//		System.out.println();
+//		}
+//		
+//		Output:-            *
+//						   ***
+//						  *****
+//						 *******
+//						*********
+//						*********
+//						*********
+//						*********
+//						*********
+//						*********
+		
+//		Pattern No- [14]
+//		
+//		int i,j,k;
+//		for(i=1;i<=4;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=2*i-1;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=i;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=11-2*i;j++){
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:       *
+//					 ***
+//					*****
+//				   *******
+//				  *********
+//				   *******
+//					*****
+//					 ***
+//					  *
+		
+//		Pattern No- [15]
+//		
+//		int i,j,k;
+//		for(i=1;i<=4;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=2*i-1;j++) {
+//				if(j==1 || j==2*i-1) {
+//					System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=i;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=11-2*i;j++) {
+//				if(j==1 || j==11-2*i) {
+//					System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//		
+//		Output:       *
+//					 * *
+//					*   *
+//				   *     *
+//				  *       *
+//				   *     *
+//					*   *
+//					 * *
+//					  *
+		
+//		Pattern No- [16]
+//		
+//		int i,j,k;
+//		for(i=1;i<=5;i++) {
+//			for(k=1;k<=5-i+1;k++) {
+//				System.out.print(" ");
+//			}
+//			for(j=1;j<=2*i-1;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for(i=1;i<=5;i++) {
+//			System.out.print(" ");
+//			for(k=1;k<=5;k++) {
+//			}
+//			for(j=1;j<=9;j++) {
+//				if(j==1 || j==2 || j==3 || j==7 || j==8 || j==9) {
+//				System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//		System.out.println();
+//		}
+//		
+//		Output:-            *
+//					   	   ***
+//						  *****
+//						 *******
+//						*********
+//						***   ***
+//						***   ***
+//						***   ***
+//						***   ***
+//						***   ***
+	
+	}
+}
+
