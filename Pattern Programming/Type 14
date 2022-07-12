@@ -2,9 +2,7 @@ public class Demo {
 
 	public static void main(String[] args) {
 		
-		
-	
-//		Pattern No- [14]
+		//	Pattern No- [14]
 //		
 //		int i,j,k;
 //		for(i=1;i<=4;i++) {
@@ -25,13 +23,15 @@ public class Demo {
 //			}
 //			System.out.println();
 //		}
+	}
+}
 //		
-//		Output:       *
+//		Output:                   *
 //					 ***
 //					*****
-//				   *******
-//				  *********
-//				   *******
+//				       *******
+//				      *********
+//				       *******
 //					*****
 //					 ***
 //					  *
