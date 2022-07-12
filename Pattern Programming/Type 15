@@ -33,13 +33,15 @@ public class Demo {
 //			}
 //			System.out.println();
 //		}
+	}
+}
 //		
-//		Output:       *
+//		Output:                   *
 //					 * *
 //					*   *
-//				   *     *
-//				  *       *
-//				   *     *
+//				       *     *
+//				      *       *
+//				       *     *
 //					*   *
 //					 * *
 //					  *
