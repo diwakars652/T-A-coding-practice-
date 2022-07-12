@@ -2,9 +2,6 @@ public class Demo {
 
 	public static void main(String[] args) {
 		
-	
-
-
 	//	Pattern No- [07]
 		
 //		int i,j,k;
@@ -17,8 +14,10 @@ public class Demo {
 //			}
 //			System.out.println();
 //		}
+	}
+}
 //		
-//		Output:-			*****
+//		Output:-			    *****
 //						   *****
 //					   	  *****
 //						 *****
