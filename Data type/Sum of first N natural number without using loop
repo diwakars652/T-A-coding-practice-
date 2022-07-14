@@ -1,0 +1,18 @@
+import java.util.*;
+
+class NaturalNumberSum {
+
+   public static void main(String[] args) {
+
+      int number = 0;
+      int sum = 0;
+      Scanner scan = new Scanner(System.in);
+
+      System.out.print("Enter N value:: ");
+      number = scan.nextInt();
+
+      sum = number*(number+1)/2;
+     
+      System.out.println("Sum = "+sum);
+   }
+}
