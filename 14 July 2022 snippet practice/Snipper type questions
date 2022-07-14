@@ -1,0 +1,93 @@
+class Demo{
+     public static void main(String [] args){
+
+//[[DATE - 14 July 2022]]
+		
+		
+//		int m = 10, n = 10;
+//		System.out.println(m++ / (++n * n--) / --m);
+//		
+//		// output - 0
+		
+//		int x = 001, y = 010, z = 100;
+//		int i = --x + y++ - z-- - --z + ++y - --x + y-- - --x;
+//		System.out.println("x="+x);
+//		System.out.println("y="+y);
+//		System.out.println("z="+z);
+//		System.out.println("i="+i);
+		
+		//output -       x=-2
+//		                 y=9
+//				 z=98
+//				 i=-167
+//		
+//		int ch = 'A';
+//		System.out.println(ch++);
+		
+		//output - 65
+//		
+//		char ch = '0';
+//		System.out.println(ch-- + --ch);
+//		
+		// output - 94
+//		
+//		char c = 'A', C = 'a';
+//		System.out.println(c++ * ++C);
+     
+// Output - 6370
+
+//		
+//		byte b = 127;
+//		b++;
+//		b++;
+//		System.out.println(b);
+		
+		//output -127
+//		
+//		double a = 131;
+//		byte b = (byte)a;
+//		System.out.println(b);
+//		
+		// output - -125
+		
+//		for(int i=0;i<=5;i=i+2) {
+//			System.out.println(i);
+//		}
+		
+//		output -      0
+//			      2
+//			      4
+		
+//		int j;
+//		for(j=0;j<5;) {
+//			System.out.println(j);
+		
+		//output -              0
+//					0
+//					0
+//					infinite times
+//		
+//		}
+//		int sum = 0;
+//		for(int i=1;i<=10;--i){
+//			System.out.println("Tap");
+//		}
+		
+		// output -              Tap
+//					 Tap
+//					 Tap
+//					 infinite times
+//		
+//		int j = 0;
+//		while(j <= 10) {
+//			System.out.println(j*j);
+//		}
+//		j++;
+		
+		// output -             0
+//					0
+//					0
+//					infinite times
+
+    }
+}
