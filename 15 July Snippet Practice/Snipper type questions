@@ -1,0 +1,77 @@
+class Demo{
+      public static void main (String [] args){
+
+
+//<<<<<<[[DATE - 15 JULY 2022]]>>>>>>
+		
+//		int i, sum;
+//		for(i=1, sum = 0; i<=5;sum +=i, ++i){
+//		System.out.println(i);
+//		}
+		
+		// OUTPUT - 1
+//					2
+//					3
+//					4
+//					5
+		
+//		
+		
+//		for(int i=0,j=0; i<5 && j<3;i++,j++) {
+//			System.out.println(i);
+//			System.out.println(j);
+//		}
+		
+		// OUTPUT - 0
+//					0
+//					1
+//					1
+//					2
+//					2
+		
+//		for(int i=0,j=5;i<5 && j>0;i++,j--) {
+//			System.out.println("i = " + i + " " + "j = " +j);
+//		}
+		
+		// OUTPUT  -  i = 0 j = 5
+//					  i = 1 j = 4
+//					  i = 2 j = 3
+//					  i = 3 j = 2
+//					  i = 4 j = 1
+//		
+//		boolean condition = false;
+//		for(int i = 0;i < 10 && !condition; i++) {
+//			System.out.println(i);
+//			if(i == 5)
+//				condition = true;
+//		}
+		
+		// OUTPUT - 0
+//					1
+//					2
+//					3
+//					4
+//					5
+		
+//		int cnt = 0;
+//		boolean b = true;
+//		while(b) {
+//			System.out.print(cnt + " ");
+//			cnt++;
+//			if(cnt == 4) {
+//				b = false;
+//			}
+//		}	
+		
+		// OUTPUT - 0 1 2 3 
+		
+//		int j =4;
+//		do {
+//			System.out.print(j + " ");
+//			j++;
+//		}
+//		while(j<4);
+		
+		// OUTPUT - 4
+    }
+}
