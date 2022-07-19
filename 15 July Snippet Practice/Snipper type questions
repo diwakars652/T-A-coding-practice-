@@ -9,7 +9,7 @@ class Demo{
 //		System.out.println(i);
 //		}
 		
-		// OUTPUT - 1
+		// OUTPUT -             1
 //					2
 //					3
 //					4
@@ -22,7 +22,7 @@ class Demo{
 //			System.out.println(j);
 //		}
 		
-		// OUTPUT - 0
+		// OUTPUT -             0
 //					0
 //					1
 //					1
@@ -33,7 +33,7 @@ class Demo{
 //			System.out.println("i = " + i + " " + "j = " +j);
 //		}
 		
-		// OUTPUT  -  i = 0 j = 5
+		// OUTPUT  -              i = 0 j = 5
 //					  i = 1 j = 4
 //					  i = 2 j = 3
 //					  i = 3 j = 2
@@ -46,7 +46,7 @@ class Demo{
 //				condition = true;
 //		}
 		
-		// OUTPUT - 0
+		// OUTPUT -             0
 //					1
 //					2
 //					3
